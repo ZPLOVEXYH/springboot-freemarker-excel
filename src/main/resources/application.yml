@@ -1,15 +1,19 @@
 server:
   port: 8080
 spring:
-    datasource:
-        url: jdbc:mysql://127.0.0.1:3306/test
-        username: root
-        password: 123456
-        driver-class-name: com.mysql.jdbc.Driver
-    mvc:
-        view:
-          prefix: /WEB-INF/views
-          suffix: .html
-mybatis-plus:
-    mapper-locations: classpath:mapper/*Mapper.xml
-    type-aliases-package: com.yuanjun.mybatis.entity
+    freemarker:
+      request-context-attribute: request
+      allow-request-override: false
+      charset: utf-8
+      check-template-location: true
+      template-loader-path: classpath:/WEB-INF/views/
+      suffix: .ftl
+
+ibk:
+  order:
+    regist:
+      url: http://www.inbko.co.kr/api/order_regist_e.asp
+    delete:
+      url: http://www.inbko.co.kr/api/order_delete.asp
+  userid: test55
+  authkey: 9EE98412A7BCC9B6FD48EDF6CB06DE91
