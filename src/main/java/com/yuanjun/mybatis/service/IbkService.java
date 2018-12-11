@@ -2,6 +2,8 @@ package com.yuanjun.mybatis.service;
 
 import com.yuanjun.mybatis.entity.RestResult;
 
+import java.io.IOException;
+
 /**
  * 实现ibk接口的调用
  *
@@ -15,4 +17,11 @@ public interface IbkService {
      * @author ZhangPeng
      */
     RestResult requestIbkApiResult(int registNum);
+
+    /**
+     * 导出excel
+     *
+     * @author ZhangPeng
+     */
+    RestResult requestExportExcel(int registNum) throws IOException;
 }

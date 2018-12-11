@@ -43,6 +43,16 @@ public class HttpUtil {
     private String authkey;
 
     /**
+     * 导出的excel保存的路径地址
+     */
+    @Value("${ibk.export.excel.savepath}")
+    private String excelSavePath;
+
+    public String getExcelSavePath() {
+        return excelSavePath;
+    }
+
+    /**
      * 发送Get请求
      *
      * @param url    : 请求的连接

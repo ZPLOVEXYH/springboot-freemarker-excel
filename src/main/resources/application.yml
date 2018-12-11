@@ -8,7 +8,6 @@ spring:
       check-template-location: true
       template-loader-path: classpath:/WEB-INF/views/
       suffix: .ftl
-
 ibk:
   order:
     regist:
@@ -17,3 +16,6 @@ ibk:
       url: http://www.inbko.co.kr/api/order_delete.asp
   userid: test55
   authkey: 9EE98412A7BCC9B6FD48EDF6CB06DE91
+  export:
+    excel:
+      savepath: d://百达物流快递单号excel列表.xls
