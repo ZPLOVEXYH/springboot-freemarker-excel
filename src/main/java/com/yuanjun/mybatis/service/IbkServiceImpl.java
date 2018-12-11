@@ -50,6 +50,6 @@ public class IbkServiceImpl implements IbkService {
             resultBeanList.add(registBean);
         }
 
-        return resultGenerator.getSuccessResult("创建、删除快递单号成功", resultBeanList);
+        return resultGenerator.getSuccessResult("先创建后删除快递单号成功", resultBeanList);
     }
 }
