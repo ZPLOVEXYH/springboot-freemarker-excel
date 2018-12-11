@@ -1,2 +1,2 @@
-# SpringBoot-Vue
-SpringBoot整合Vue，实现前后端的分离。采用SSM框架，实现服务器端的java代码实现
+# SpringBoot-Freemarker
+SpringBoot整合Freemarker，实现前后端的分离。采用SSM框架，实现服务器端的java代码实现
