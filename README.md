@@ -1,2 +1,2 @@
-# SpringBoot-Freemarker
-SpringBoot整合Freemarker，实现前后端的分离。采用SSM框架，实现服务器端的java代码实现
+# springboot-freemarker-excel
+springboot集成freemarker导出excel功能
